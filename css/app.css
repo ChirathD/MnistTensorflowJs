@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.digit-demo-container {
+  background-color: #5a8bd6;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 1024px;
+  height: 800px;
+}
+
+.digit-demo-container h3 {
+  font-size: 15px;
+  background-color: #2e0fdf;
+  padding: 10px;
+  color: white;
+  margin: 0px;
+  border: 1px solid #889b1b;
+  border-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.digit-demo-container select {
+  margin-top: 0px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.flex-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-two div {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .flex-two div {
+    padding: 5px;
+  }
+}
+.canvas-box-wrapper {
+  display: block !important;
+}
+
+.material-button-pink {
+  background-color: #cf0ae9;
+  height: 60px;
+  width: 150px;
+  color: black;
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 2px solid #030244;
+  font-size: 15px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.material-button-pink:focus {
+  outline: none;
+}
+
+.material-button-pink:hover {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3), 0 5px 10px rgba(0, 0, 0, 0.22);
+}
+
+.myclass {
+  color: #e70a0a;
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.myclass2 {
+  position: static;
+  top: 100px;
+  color: #e70a0a;
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#chart_box {
+  height: 200px;
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  #chart_box {
+    padding: 5px;
+  }
+}
