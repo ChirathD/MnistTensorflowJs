@@ -284,7 +284,7 @@ function loadChart(label, data) {
 }
 
 
-document.getElementById("demo2").innerHTML = 'Posted by Chirath Dasanayaka';
+document.getElementById("demo2").innerHTML = 'Posted By Chirath Dasanayaka.';
 
 
 
